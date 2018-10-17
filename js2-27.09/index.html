@@ -9,7 +9,8 @@
         var item3 = new MenuItem('item', 'Blog', '/blog');
 
         var menu = new Menu('menu', 'menu', [item1, item2, item3]);
-        document.getElementById('wrapper').appendChild(menu.render());
+        document.getElementById('wrapper').appendChild(menu.render()).appendChild(menu.render());
+        console.log(menu);
       }
     </script>
   </head>

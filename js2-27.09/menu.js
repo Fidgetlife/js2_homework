@@ -40,14 +40,6 @@ Menu.prototype.render = function() {
   return ul;
 }
 
-// function Menulevel() {
-//   Menu.call(this, items);
-
-// }
-// Menulevel.prototype = Object.create(Menu.prototype);
-// Menulevel.prototype.render = function() {
-  
-// }
 
 function MenuItem(className, title, href) {
   Container.call(this, null, className, 'li'); 
